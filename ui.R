@@ -27,7 +27,7 @@ shinyUI(fluidPage(
                "Changing the State selection will show the number of recalls by city and the recall status. </br>",
                "Below the filter a confirmation text shows the selected State, and a text summary with the total",
                "number of recalls in the State as well as the name of the City with the most recalls",
-               "(when Cities have the same numbers of recalls, it shows the first one in alphabetic order shows). </br>",
+               "(when Cities have the same numbers of recalls, only the first one in the list order shows). </br>",
                "The <b><i>Recalls by State</b></i> tab shows the percentage of recalls for each class of recall", 
                "grouped by State with the table of values underneath. </br>",
                "The <b><i>Table</b></i> tab has all data retrieved from the API stored in a searcheable DataTable.")),
